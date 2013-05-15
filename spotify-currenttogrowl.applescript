@@ -12,7 +12,7 @@ if (MyList contains "Spotify") is true then
 		set img_data to artwork of current track
 	end tell
 	
-	tell application "GrowlHelperApp"
+	tell application "Growl"
 		-- Make a list of the notifications this script will ever send.
 		set the notificationsList to {"Current Spotify Track"}
 		
