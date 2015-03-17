@@ -21,6 +21,10 @@ if (MyList contains "Spotify") is true then
 		-- for this script's notifications.
 		register as application "Spotify Notifier Script" all notifications notificationsList default notifications notificationsList icon of application "Spotify"
 		set desc to track_artist & newline & track_album
-		notify with name "Current Spotify Track" title track_name description desc application name "Spotify Notifier Script" image img_data
+		if img_data is equal to missing value then
+			notify with name "Current Spotify Track" title track_name description desc application name "Spotify Notifier Script"
+		else
+			notify with name "Current Spotify Track" title track_name description desc application name "Spotify Notifier Script" image img_data
+		end if
 	end tell
 end if
