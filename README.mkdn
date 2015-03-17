@@ -1,5 +1,6 @@
-Currently used in conjunction with Quicksilver Custom Triggers, to run Applescripts on specific keypresses.
+# Applescripts for Spotify
 
-Mapped to mimic the behavior that I use from the the iTunes Quicksilver plugin.
+Small Applescript files to control Spotify from your trigger handler of choice. Feel free to set up your own triggers (screenshots below), or use the provided `spotifyscripts.alfredworkflow` to use the scripts.
 
-![screenshot!](http://github.com/christineyen/spotify-applescripts/raw/master/screenshot.png)
+![screenshot!](https://raw.githubusercontent.com/christineyen/spotify-applescripts/master/alfred.png)
+![screenshot!](https://raw.githubusercontent.com/christineyen/spotify-applescripts/master/quicksilver.png)
