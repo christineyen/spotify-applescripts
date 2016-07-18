@@ -1,6 +1,10 @@
 # Applescripts for Spotify
 
-Small Applescript files to control Spotify from your trigger handler of choice. Feel free to set up your own triggers (screenshots below), or use the provided `spotifyscripts.alfredworkflow` (or `spotifyscripts-alfred3.alfredworkflow` for Alfred 3) to use the scripts.
+If you're using Alfred 3, the easiest way to get started is to just use the `spotifyscripts-alfred3.alfredworkflow` directly, with the Applescripts bundled in directly.
+
+Otherwise, feel free to set up your own triggers (screenshots below) or use the provided Alfred 2 workflow (`spotifyscripts.alfredworkflow`).
+
+Alfred:
 
 ![screenshot!](https://raw.githubusercontent.com/christineyen/spotify-applescripts/master/alfred.png)
 
